@@ -38,6 +38,23 @@ public class SetDemo {
             //已经排序了
             System.out.println(p.toString());
         }
+        System.out.println();
+
+        /**
+         * 使用lambda表达式传入一个比较规则
+         */
+        TreeSet<Person> set1 = new TreeSet<>((o1, o2) -> {
+            Person p1 = (Person) o1;
+            Person p2 = (Person) o2;
+            return Integer.compare(p1.getAge(), p2.getAge());
+
+        });
+        set1.add(new Person("cp",18));
+        set1.add(new Person("cp",20));
+        set1.add(new Person("cp",26));
+        set1.add(new Person("cp",15));
+        System.out.println(set1);
+
     }
 }
 
