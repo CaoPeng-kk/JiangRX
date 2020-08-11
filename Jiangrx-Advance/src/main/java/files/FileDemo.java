@@ -21,7 +21,7 @@ public class FileDemo {
 
         Path path = Paths.get("D:", "SpringBoot");
         Path path1 = Paths.get("D:", "Demo","one.txt");
-//        walkFile(path);
+        walkFile(path);
         System.out.println(path1);
         readAndWrite(path1);
     }
