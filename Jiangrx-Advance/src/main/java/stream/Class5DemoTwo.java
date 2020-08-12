@@ -69,8 +69,7 @@ public class Class5DemoTwo {
 //       打印生活在剑桥的交易员的所有交易额
         System.out.println("-------打印生活在剑桥的交易员的所有交易额-------");
         Map<String, Trader> collect = traders.stream()
-                .filter(item -> "Cambridge".equals(item.getArea())).collect(Collectors.toMap(trader ->
-                {
+                .filter(item -> "Cambridge".equals(item.getArea())).collect(Collectors.toMap(trader -> {
                     char[] cs = trader.getName().toCharArray();
                     cs[0] += 32;
                     return String.valueOf(cs);
