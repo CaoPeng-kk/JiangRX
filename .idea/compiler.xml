@@ -7,11 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Jiangrx-Basic" />
+        <module name="Jiangrx" />
+        <module name="Java-API" />
         <module name="Jiangrx-Advance" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="JiangRX-Advance" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
