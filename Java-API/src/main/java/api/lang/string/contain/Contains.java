@@ -1,4 +1,4 @@
-package lang.string.contain;
+package api.lang.string.contain;
 
 /**
  * @Author: caopeng

@@ -1,4 +1,4 @@
-package lang.string;
+package api.lang.string;
 
 
 /**

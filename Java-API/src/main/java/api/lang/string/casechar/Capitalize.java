@@ -1,4 +1,4 @@
-package lang.string.casechar;
+package api.lang.string.casechar;
 
 /**
  * @Author: caopeng
