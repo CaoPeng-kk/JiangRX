@@ -68,7 +68,7 @@ public class ListDemo {
          */
     public static void removeDuplicate(ArrayList<Integer> list1) {
         HashSet<Integer> hash = new HashSet<>();
-        for(int x=0;x<list1.size();x++) {
+        for(int x = 0; x < list1.size(); x++) {
             hash.add(list1.get(x));
         }
         System.out.println(hash);
