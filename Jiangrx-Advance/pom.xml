@@ -11,5 +11,12 @@
 
     <artifactId>Jiangrx-Advance</artifactId>
 
-
+    <!--测试用的，可随时删掉-->
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-batch</artifactId>
+            <version>2.1.9.RELEASE</version>
+        </dependency>
+    </dependencies>
 </project>

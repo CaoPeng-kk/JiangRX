@@ -13,6 +13,7 @@ public class FileDemo {
 
     public static void main(String[] args) {
         File file = new File("D:\\Chrome");
+
         // 返回一个数组 包含此目录下所有文件的抽象路径名
         File[] files = file.listFiles();
         for (File f : files) {
